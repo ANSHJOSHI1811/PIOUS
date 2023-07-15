@@ -1,10 +1,10 @@
-# PIOUS - Ecommerce Website (MERN Stack)
+# PIOUS - Ecommerce Website (MERN Stack with MVC Architecture)
 
-Welcome to PIOUS, an ecommerce website developed using the MERN stack. PIOUS provides a seamless online shopping experience for customers, allowing them to browse and purchase a wide range of products. With its intuitive user interface and robust backend, PIOUS aims to deliver a secure and efficient ecommerce solution.
+Welcome to PIOUS, an ecommerce website developed using the MERN stack with the MVC (Model-View-Controller) architecture. PIOUS provides a seamless online shopping experience for customers, allowing them to browse and purchase a wide range of products. With its intuitive user interface, robust backend, and organized code structure, PIOUS aims to deliver a secure and efficient ecommerce solution.
 
 ## Project Overview
 
-PIOUS is a full-stack ecommerce website built using the MERN stack, which stands for MongoDB, Express.js, React.js, and Node.js. It incorporates various features necessary for an ecommerce platform, including product listings, shopping cart functionality, user authentication, and secure payment processing.
+PIOUS is a full-stack ecommerce website built using the MERN stack, which stands for MongoDB, Express.js, React.js, and Node.js. It incorporates the MVC architecture, dividing the project into three main components: the Model (data and business logic), the View (user interface), and the Controller (handling user requests and updating the model and view).
 
 ## Features
 
@@ -28,17 +28,20 @@ To get started with PIOUS:
 6. Test the functionality of the website, including adding products to the cart, placing orders, and managing admin tasks.
 7. Deploy the PIOUS ecommerce website to a hosting platform or server of your choice.
 
-## Resources
+## MVC Architecture
 
-To deepen your understanding and enhance your development process, consider exploring the following resources:
+The MVC architecture separates the PIOUS project into three main components: the Model, the View, and the Controller.
 
-- MongoDB Official Documentation: [https://docs.mongodb.com/](https://docs.mongodb.com/)
-- Express.js Official Documentation: [https://expressjs.com/](https://expressjs.com/)
-- React.js Official Documentation: [https://reactjs.org/docs/](https://reactjs.org/docs/)
-- Node.js Official Documentation: [https://nodejs.org/en/docs/](https://nodejs.org/en/docs/)
+- **Model**: The Model represents the data and business logic of the application. It handles data storage, retrieval, and manipulation. In the PIOUS project, the Model manages the ecommerce-related data, such as products, orders, and user information. It interacts with the MongoDB database to store and retrieve data.
 
-Additionally, there are numerous tutorials, articles, and online communities dedicated to the MERN stack and ecommerce development that can provide guidance and support.
+- **View**: The View is responsible for presenting the user interface and handling user interactions. It renders the frontend components using React.js, providing users with an intuitive and visually appealing interface to browse and interact with the ecommerce platform.
+
+- **Controller**: The Controller acts as an intermediary between the Model and the View. It receives user input, updates the Model accordingly, and sends data to the View for rendering. In the PIOUS project, the Controller is implemented using Node.js and Express.js, handling user requests, processing data, and ensuring the synchronization between the Model and the View.
+
+To learn more about the MVC architecture, you can refer to the following resources:
+
+- [Introduction to MVC Architecture](https://www.geeksforgeeks.org/mvc-design-pattern/)
 
 ## Conclusion
 
-PIOUS is a comprehensive ecommerce website built with the MERN stack, providing a robust solution for online shopping. By leveraging the power of MongoDB, Express.js, React.js, and Node.js, you can create a secure and efficient ecommerce platform that meets the needs of your customers. Good luck with your PIOUS project!
+PIOUS is a comprehensive ecommerce website built with the MERN stack and MVC architecture, providing a robust solution for online shopping. By leveraging the power of MongoDB, Express.js, React.js, and Node.js, along with the organized code structure of the MVC architecture, you can create a secure and efficient ecommerce platform that meets the needs of your customers. Good luck with your PIOUS project!
